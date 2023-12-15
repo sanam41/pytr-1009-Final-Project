@@ -1,7 +1,7 @@
 # Song Popularity Prediction Project
 
 ## Problem Statement
-The problem at hand involves predicting the loudness of a song based on various features within a dataset comprising approximately 19,000 entries. The dataset was obtained from Kaggle, and the objective is to develop a machine learning model capable of accurately forecasting a song's loudness given its diverse attributes. The code has been writen such that the target (dependent) variable can be selected by the user. However, the tuning of parameters are based on prediction of loudness of a song.
+The problem at hand involves predicting the loudness of a song based on various features within a dataset comprising approximately 19,000 entries. The dataset was obtained from Kaggle (https://www.kaggle.com/datasets/yasserh/song-popularity-dataset), and the objective is to develop a machine learning model capable of accurately forecasting a song's loudness given its diverse attributes. The code has been writen such that the target (dependent) variable can be selected by the user. However, the tuning of parameters are based on prediction of loudness of a song.
 
 ## Solution Summary
 Our solution leverages both neural network and linear regression algorithms to address the problem. Using a neural network architecture with three hidden layers, we aimed to enhance the predictive capabilities of the model. The hyperparameter tuning process was intricate and time-consuming, and there is ongoing consideration for further optimization. The solution demonstrates that neural network model specifically outperforms the linear regression model at the lowest loudness levels.
