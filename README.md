@@ -8,7 +8,7 @@ Our solution leverages both neural network and linear regression algorithms to a
 
 
 ## Technical Solution
-The technical solution involves the implementation of a neural network with three hidden layers in addition to input and output layers. Hyperparameter tuning, a critical aspect of the process, required meticulous adjustments. The comparison between neural network and linear regression models showcases the superior predictive power of the neural network. Detailed technical aspects of the solution are available in the code and documentation.
+The technical solution involves the implementation of a neural network with three hidden layers in addition to input and output layers. The activation and loss functions are 'relu' and 'mean squared error', respectively. Hyperparameter tuning included determining the number of epoch, batch_size and the neurons of each hidden layer. The comparison between neural network and linear regression models showcases the superior predictive power of the neural network. Detailed technical aspects of the solution are available in the code and documentation.
 
 ## Repository Files
 1. **README.md:** The main documentation providing an overview of the project, its objectives, and the technical approach taken.
